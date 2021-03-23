@@ -10,6 +10,189 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
+ * require jquery
+ *= require bootstrap.min
  *= require_tree .
  *= require_self
  */
+ 
+
+div#welcome-note {
+    color: green;
+    margin-left: 400px;
+    font-size: 15px;
+     position: relative;
+    width: 350px;
+    element {
+      margin-left: 800px;
+      }
+    
+  
+  }
+  @keyframes welcomenote {
+    from {left: 0px;}
+    to {left: 650px;}
+} 
+  
+   
+  div#session {
+    margin-top: 40px;
+    float: left;
+    width: 100px;
+  }
+    
+  div#employees_index{
+    float: right;
+    margin-top: 0px;
+    width: 1235px;
+  }
+    
+ 
+  .banner {
+    padding: 20px;
+    height: 110px;
+    border-bottom: 2px solid;
+    font: small-caps 40px/30px "Times New Roman", serif;
+    color: #666633;
+    background: #cce6ff;
+    text-align: center;
+
+    img {
+      float: left;
+      
+    }
+  }
+  
+  .notice {
+    color: green;
+    //font-weight: normal;
+  }
+/* Datepicker
+----------------------------------*/
+
+.ui-datepicker {
+  //box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.506);
+  background: #F5F5F5;
+	border-bottom: 2px solid #666633;
+	border-left: 2px solid #666633;
+	border-right: 2px solid #666633;
+	border-top: 2px solid #666633;
+	color: #333333;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	padding: 0px;
+	padding-left: 0;
+	padding-top: 2px;
+	position: absolute;
+	z-index: 9999;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display:none;
+}
+
+
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+  	
+	position: absolute;
+	top: 2px;
+	width: 10px;
+	height: 20px;
+}
+.ui-datepicker .ui-datepicker-prev-hover,
+.ui-datepicker .ui-datepicker-next-hover {
+	top: 0.5px;
+  
+}
+.ui-datepicker .ui-datepicker-prev {
+  background-position:-20px 0;
+	left: 4px;
+}
+.ui-datepicker .ui-datepicker-next {
+	right: 16px;
+}
+.ui-datepicker .ui-datepicker-prev-hover {
+	left: 1px;
+}
+.ui-datepicker .ui-datepicker-next-hover {
+	right: 19px;
+}
+.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next span {
+	display: block;
+	position: absolute;
+	cursor: pointer;
+	left: 50%;
+	margin-left: -8px;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-datepicker .ui-datepicker-title {
+	margin: 0 2.3em;
+	line-height: 1.8em;
+	text-align: center;
+}
+.ui-datepicker .ui-datepicker-title select {
+	font-size: 1em;
+	margin: 0px 0;
+	padding: 0px ;  
+}
+.ui-datepicker select.ui-datepicker-month-year {
+	width: 100%;
+}
+.ui-datepicker select.ui-datepicker-month{ 
+  width: 60px;
+  margin: 5px;
+  background: #F0FFF0;
+}
+
+.ui-datepicker select.ui-datepicker-year {
+	width: 60px;
+	background: #F0FFF0;	
+}
+.ui-datepicker table {
+	width: 100%;
+	font-size: .9em;
+	border-collapse: collapse;
+	margin: 0 0 .4em;
+}
+.ui-datepicker th {
+	padding: .3em .3em;
+	text-align: center;
+	font-weight: bold;
+	border: 0;
+}
+.ui-datepicker td {
+	border: 0;
+	padding: 1px;
+}
+.ui-datepicker td span,
+.ui-datepicker td a {
+	display: block;
+	padding: .2em;
+	text-align: right;
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+  background-color: green;
+	background-image: none;
+	margin: .7em 0 0 0;
+	padding: 0 0em;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
+}
+.ui-datepicker .ui-datepicker-buttonpane button {
+	float: right;
+	background: 	#F0FFF0;
+	margin: 0px;
+	cursor: pointer;
+	padding: 0px;
+	width: auto;
+	overflow: visible;
+}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current {
+	float: left;
+	padding: 0px;
+}
+
+/*---------------------------*/

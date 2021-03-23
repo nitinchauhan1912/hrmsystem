@@ -9,7 +9,18 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="">
+    <div class ="banner">
+      <div class="banner-image" style="float:left;">
+        <%= image_tag("grk.png", style: "width:50%;") %>
+      </div>
+      <div class="banner-name" style="float:left;padding-top:25px;">
+        <%= @page_title || "Human Resource Management System" %>
+      </div>
+    </div>
+    <p class="notice"><%= notice %></p>
     <%= yield %>
   </body>
 </html>
+
+

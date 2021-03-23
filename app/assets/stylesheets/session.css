@@ -1,0 +1,64 @@
+body {
+  font: 13px/20px 'Lucida Grande', Tahoma, Verdana, sans-serif;
+  color: #666633;
+  background:   white;
+}
+
+.button {
+    background-color: #666633;
+    color: white;
+}
+
+.alert { color: red; font-size: 14px; position: center;}
+
+.container {
+  margin: 50px auto;
+  width: 640px;
+}
+.login {
+position: relative;
+margin: 0 auto;
+padding-top: 0px;
+padding: 20px 20px 20px;
+width: 310px;
+background:  #cce6ff;
+}
+ 
+h1 {
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px white;
+  background:  #003566; 
+  border-bottom: 1px solid #cfcfcf;
+  border-radius: 3px 3px 0 0;
+}
+
+     
+      .remember_me {
+        float: left;
+        
+        line-height: 31px;
+}
+        label {
+          font-size: 12px;
+          color: #556B2F;
+          cursor: pointer;
+        }
+      .submit {margin-left: 2px; display: inline;}
+    
+
+
+input {
+  bottom: 1px;
+  vertical-align: middle;
+}
+
+.login-help {
+  margin: 20px 0;
+  font-size: 11px;
+  color: #556B2F;
+  text-align: center;
+}
